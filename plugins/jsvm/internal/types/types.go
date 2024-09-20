@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/core"
-	"github.com/AlperRehaYAZGAN/postgresbase/plugins/jsvm"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/list"
+	"github.com/Bulut-Bilisimciler/postgresbase/core"
+	"github.com/Bulut-Bilisimciler/postgresbase/plugins/jsvm"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/list"
 	"github.com/pocketbase/tygoja"
 )
 
@@ -1053,16 +1053,16 @@ func main() {
 
 	gen := tygoja.New(tygoja.Config{
 		Packages: map[string][]string{
-			"github.com/go-ozzo/ozzo-validation/v4":                    {"Error"},
-			"github.com/pocketbase/dbx":                                {"*"},
-			"github.com/AlperRehaYAZGAN/postgresbase/tools/security":   {"*"},
-			"github.com/AlperRehaYAZGAN/postgresbase/tools/filesystem": {"*"},
-			"github.com/AlperRehaYAZGAN/postgresbase/tools/template":   {"*"},
-			"github.com/AlperRehaYAZGAN/postgresbase/tokens":           {"*"},
-			"github.com/AlperRehaYAZGAN/postgresbase/mails":            {"*"},
-			"github.com/AlperRehaYAZGAN/postgresbase/apis":             {"*"},
-			"github.com/AlperRehaYAZGAN/postgresbase/forms":            {"*"},
-			"github.com/AlperRehaYAZGAN/postgresbase":                  {"*"},
+			"github.com/go-ozzo/ozzo-validation/v4":                       {"Error"},
+			"github.com/pocketbase/dbx":                                   {"*"},
+			"github.com/Bulut-Bilisimciler/postgresbase/tools/security":   {"*"},
+			"github.com/Bulut-Bilisimciler/postgresbase/tools/filesystem": {"*"},
+			"github.com/Bulut-Bilisimciler/postgresbase/tools/template":   {"*"},
+			"github.com/Bulut-Bilisimciler/postgresbase/tokens":           {"*"},
+			"github.com/Bulut-Bilisimciler/postgresbase/mails":            {"*"},
+			"github.com/Bulut-Bilisimciler/postgresbase/apis":             {"*"},
+			"github.com/Bulut-Bilisimciler/postgresbase/forms":            {"*"},
+			"github.com/Bulut-Bilisimciler/postgresbase":                  {"*"},
 			"path/filepath": {"*"},
 			"os":            {"*"},
 			"os/exec":       {"Command"},

@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/list"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/security"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/list"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/security"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 )
 

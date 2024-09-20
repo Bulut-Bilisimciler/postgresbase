@@ -10,8 +10,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tests"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/filesystem"
+	"github.com/Bulut-Bilisimciler/postgresbase/tests"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/filesystem"
 	"github.com/labstack/echo/v5"
 )
 

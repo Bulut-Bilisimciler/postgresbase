@@ -7,13 +7,13 @@ import (
 	"context"
 	"log/slog"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/daos"
-	"github.com/AlperRehaYAZGAN/postgresbase/models/settings"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/filesystem"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/hook"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/mailer"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/store"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/subscriptions"
+	"github.com/Bulut-Bilisimciler/postgresbase/daos"
+	"github.com/Bulut-Bilisimciler/postgresbase/models/settings"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/filesystem"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/hook"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/mailer"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/store"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/subscriptions"
 	"github.com/pocketbase/dbx"
 )
 

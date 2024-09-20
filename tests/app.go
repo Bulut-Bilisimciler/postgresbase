@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/core"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/mailer"
+	"github.com/Bulut-Bilisimciler/postgresbase/core"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/mailer"
 )
 
 // TestApp is a wrapper app instance used for testing.

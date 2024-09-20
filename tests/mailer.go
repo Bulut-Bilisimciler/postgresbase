@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/mailer"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/mailer"
 )
 
 var _ mailer.Mailer = (*TestMailer)(nil)

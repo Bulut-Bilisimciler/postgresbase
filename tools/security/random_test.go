@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/security"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/security"
 )
 
 func TestRandomString(t *testing.T) {

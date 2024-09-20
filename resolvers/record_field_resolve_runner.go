@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
-	"github.com/AlperRehaYAZGAN/postgresbase/models/schema"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/inflector"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/list"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/search"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/security"
+	"github.com/Bulut-Bilisimciler/postgresbase/models"
+	"github.com/Bulut-Bilisimciler/postgresbase/models/schema"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/inflector"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/list"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/search"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/security"
 	"github.com/pocketbase/dbx"
 )
 

@@ -23,11 +23,11 @@ import (
 	"time"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/AlperRehaYAZGAN/postgresbase/core"
-	"github.com/AlperRehaYAZGAN/postgresbase/migrations"
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/inflector"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/migrate"
+	"github.com/Bulut-Bilisimciler/postgresbase/core"
+	"github.com/Bulut-Bilisimciler/postgresbase/migrations"
+	"github.com/Bulut-Bilisimciler/postgresbase/models"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/inflector"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/migrate"
 	"github.com/spf13/cobra"
 )
 

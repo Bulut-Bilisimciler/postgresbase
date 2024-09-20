@@ -1,6 +1,6 @@
 package models
 
-import "github.com/AlperRehaYAZGAN/postgresbase/tools/types"
+import "github.com/Bulut-Bilisimciler/postgresbase/tools/types"
 
 type TableInfoRow struct {
 	// the `db:"pk"` tag has special semantic so we cannot rename

@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/rest"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/rest"
 	"github.com/labstack/echo/v5"
 )
 

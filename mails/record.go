@@ -4,12 +4,12 @@ import (
 	"html/template"
 	"net/mail"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/core"
-	"github.com/AlperRehaYAZGAN/postgresbase/mails/templates"
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
-	"github.com/AlperRehaYAZGAN/postgresbase/models/settings"
-	"github.com/AlperRehaYAZGAN/postgresbase/tokens"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/mailer"
+	"github.com/Bulut-Bilisimciler/postgresbase/core"
+	"github.com/Bulut-Bilisimciler/postgresbase/mails/templates"
+	"github.com/Bulut-Bilisimciler/postgresbase/models"
+	"github.com/Bulut-Bilisimciler/postgresbase/models/settings"
+	"github.com/Bulut-Bilisimciler/postgresbase/tokens"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/mailer"
 )
 
 // SendRecordPasswordReset sends a password reset request email to the specified user.

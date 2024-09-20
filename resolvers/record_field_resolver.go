@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
-	"github.com/AlperRehaYAZGAN/postgresbase/models/schema"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/search"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/security"
+	"github.com/Bulut-Bilisimciler/postgresbase/models"
+	"github.com/Bulut-Bilisimciler/postgresbase/models/schema"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/search"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/security"
 	"github.com/pocketbase/dbx"
 	"github.com/spf13/cast"
 )

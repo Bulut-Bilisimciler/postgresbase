@@ -5,7 +5,7 @@ import (
 	"log/slog"
 	"sync"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/types"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/types"
 )
 
 var _ slog.Handler = (*BatchHandler)(nil)

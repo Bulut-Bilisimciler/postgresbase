@@ -3,8 +3,8 @@ package daos
 import (
 	"time"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/types"
+	"github.com/Bulut-Bilisimciler/postgresbase/models"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/types"
 	"github.com/pocketbase/dbx"
 )
 

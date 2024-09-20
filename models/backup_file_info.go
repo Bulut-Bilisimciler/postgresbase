@@ -1,6 +1,6 @@
 package models
 
-import "github.com/AlperRehaYAZGAN/postgresbase/tools/types"
+import "github.com/Bulut-Bilisimciler/postgresbase/tools/types"
 
 type BackupFileInfo struct {
 	Key      string         `json:"key"`

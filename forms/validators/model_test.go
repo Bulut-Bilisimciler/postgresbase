@@ -3,8 +3,8 @@ package validators_test
 import (
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/forms/validators"
-	"github.com/AlperRehaYAZGAN/postgresbase/tests"
+	"github.com/Bulut-Bilisimciler/postgresbase/forms/validators"
+	"github.com/Bulut-Bilisimciler/postgresbase/tests"
 )
 
 func TestUniqueId(t *testing.T) {

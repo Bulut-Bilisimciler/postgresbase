@@ -3,9 +3,9 @@ package migrations
 import (
 	"fmt"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/daos"
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
-	"github.com/AlperRehaYAZGAN/postgresbase/models/schema"
+	"github.com/Bulut-Bilisimciler/postgresbase/daos"
+	"github.com/Bulut-Bilisimciler/postgresbase/models"
+	"github.com/Bulut-Bilisimciler/postgresbase/models/schema"
 	"github.com/pocketbase/dbx"
 )
 

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/rest"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/search"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/rest"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/search"
 	"github.com/labstack/echo/v5"
 )
 

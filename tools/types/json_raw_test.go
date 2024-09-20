@@ -4,7 +4,7 @@ import (
 	"database/sql/driver"
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/types"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/types"
 )
 
 func TestParseJsonRaw(t *testing.T) {

@@ -3,9 +3,9 @@ package daos
 import (
 	"errors"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/list"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/security"
+	"github.com/Bulut-Bilisimciler/postgresbase/models"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/list"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/security"
 	"github.com/pocketbase/dbx"
 )
 

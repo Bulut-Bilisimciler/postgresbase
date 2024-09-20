@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/inflector"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/list"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/inflector"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/list"
 	"github.com/pocketbase/dbx"
 )
 

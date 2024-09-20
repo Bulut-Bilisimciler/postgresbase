@@ -6,10 +6,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/forms"
-	"github.com/AlperRehaYAZGAN/postgresbase/models/settings"
-	"github.com/AlperRehaYAZGAN/postgresbase/tests"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/security"
+	"github.com/Bulut-Bilisimciler/postgresbase/forms"
+	"github.com/Bulut-Bilisimciler/postgresbase/models/settings"
+	"github.com/Bulut-Bilisimciler/postgresbase/tests"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/security"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 )
 

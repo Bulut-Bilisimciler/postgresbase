@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/types"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/types"
 )
 
 func TestPointer(t *testing.T) {

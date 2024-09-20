@@ -7,14 +7,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/daos"
-	"github.com/AlperRehaYAZGAN/postgresbase/migrations"
-	"github.com/AlperRehaYAZGAN/postgresbase/migrations/logs"
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/list"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/logger"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/mailer"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/migrate"
+	"github.com/Bulut-Bilisimciler/postgresbase/daos"
+	"github.com/Bulut-Bilisimciler/postgresbase/migrations"
+	"github.com/Bulut-Bilisimciler/postgresbase/migrations/logs"
+	"github.com/Bulut-Bilisimciler/postgresbase/models"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/list"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/logger"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/mailer"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/migrate"
 )
 
 func TestNewBaseApp(t *testing.T) {

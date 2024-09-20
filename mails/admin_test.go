@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/mails"
-	"github.com/AlperRehaYAZGAN/postgresbase/tests"
+	"github.com/Bulut-Bilisimciler/postgresbase/mails"
+	"github.com/Bulut-Bilisimciler/postgresbase/tests"
 )
 
 func TestSendAdminPasswordReset(t *testing.T) {

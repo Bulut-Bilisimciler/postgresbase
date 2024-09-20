@@ -2,8 +2,8 @@
 package models
 
 import (
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/security"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/types"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/security"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/types"
 )
 
 const (

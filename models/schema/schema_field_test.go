@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/models/schema"
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/types"
+	"github.com/Bulut-Bilisimciler/postgresbase/models/schema"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/types"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 )
 

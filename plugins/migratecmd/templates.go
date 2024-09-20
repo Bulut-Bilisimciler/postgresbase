@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
+	"github.com/Bulut-Bilisimciler/postgresbase/models"
 )
 
 const (
@@ -340,7 +340,7 @@ func (p *plugin) goBlankTemplate() (string, error) {
 
 import (
 	"github.com/pocketbase/dbx"
-	m "github.com/AlperRehaYAZGAN/postgresbase/migrations"
+	m "github.com/Bulut-Bilisimciler/postgresbase/migrations"
 )
 
 func init() {
@@ -371,9 +371,9 @@ import (
 	"encoding/json"
 
 	"github.com/pocketbase/dbx"
-	"github.com/AlperRehaYAZGAN/postgresbase/daos"
-	m "github.com/AlperRehaYAZGAN/postgresbase/migrations"
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
+	"github.com/Bulut-Bilisimciler/postgresbase/daos"
+	m "github.com/Bulut-Bilisimciler/postgresbase/migrations"
+	"github.com/Bulut-Bilisimciler/postgresbase/models"
 )
 
 func init() {
@@ -410,9 +410,9 @@ import (
 	"encoding/json"
 
 	"github.com/pocketbase/dbx"
-	"github.com/AlperRehaYAZGAN/postgresbase/daos"
-	m "github.com/AlperRehaYAZGAN/postgresbase/migrations"
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
+	"github.com/Bulut-Bilisimciler/postgresbase/daos"
+	m "github.com/Bulut-Bilisimciler/postgresbase/migrations"
+	"github.com/Bulut-Bilisimciler/postgresbase/models"
 )
 
 func init() {
@@ -458,9 +458,9 @@ import (
 	"encoding/json"
 
 	"github.com/pocketbase/dbx"
-	"github.com/AlperRehaYAZGAN/postgresbase/daos"
-	m "github.com/AlperRehaYAZGAN/postgresbase/migrations"
-	"github.com/AlperRehaYAZGAN/postgresbase/models"
+	"github.com/Bulut-Bilisimciler/postgresbase/daos"
+	m "github.com/Bulut-Bilisimciler/postgresbase/migrations"
+	"github.com/Bulut-Bilisimciler/postgresbase/models"
 )
 
 func init() {
@@ -720,15 +720,15 @@ func (p *plugin) goDiffTemplate(new *models.Collection, old *models.Collection) 
 	}
 
 	imports += "\n\t\"github.com/pocketbase/dbx\""
-	imports += "\n\t\"github.com/AlperRehaYAZGAN/postgresbase/daos\""
-	imports += "\n\tm \"github.com/AlperRehaYAZGAN/postgresbase/migrations\""
+	imports += "\n\t\"github.com/Bulut-Bilisimciler/postgresbase/daos\""
+	imports += "\n\tm \"github.com/Bulut-Bilisimciler/postgresbase/migrations\""
 
 	if strings.Contains(combined, "schema.SchemaField{") {
-		imports += "\n\t\"github.com/AlperRehaYAZGAN/postgresbase/models/schema\""
+		imports += "\n\t\"github.com/Bulut-Bilisimciler/postgresbase/models/schema\""
 	}
 
 	if strings.Contains(combined, "types.Pointer(") {
-		imports += "\n\t\"github.com/AlperRehaYAZGAN/postgresbase/tools/types\""
+		imports += "\n\t\"github.com/Bulut-Bilisimciler/postgresbase/tools/types\""
 	}
 	// ---
 

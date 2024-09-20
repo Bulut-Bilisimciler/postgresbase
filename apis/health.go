@@ -3,7 +3,7 @@ package apis
 import (
 	"net/http"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/core"
+	"github.com/Bulut-Bilisimciler/postgresbase/core"
 	"github.com/labstack/echo/v5"
 )
 

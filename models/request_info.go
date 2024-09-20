@@ -3,7 +3,7 @@ package models
 import (
 	"strings"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/models/schema"
+	"github.com/Bulut-Bilisimciler/postgresbase/models/schema"
 )
 
 // RequestInfo defines a HTTP request data struct, usually used

@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/store"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/store"
 	"github.com/spf13/cast"
 )
 

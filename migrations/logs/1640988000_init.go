@@ -1,7 +1,7 @@
 package logs
 
 import (
-	"github.com/AlperRehaYAZGAN/postgresbase/tools/migrate"
+	"github.com/Bulut-Bilisimciler/postgresbase/tools/migrate"
 	"github.com/pocketbase/dbx"
 )
 

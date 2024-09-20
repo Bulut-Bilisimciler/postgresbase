@@ -3,8 +3,8 @@ package cmd_test
 import (
 	"testing"
 
-	"github.com/AlperRehaYAZGAN/postgresbase/cmd"
-	"github.com/AlperRehaYAZGAN/postgresbase/tests"
+	"github.com/Bulut-Bilisimciler/postgresbase/cmd"
+	"github.com/Bulut-Bilisimciler/postgresbase/tests"
 )
 
 func TestAdminCreateCommand(t *testing.T) {
